@@ -4054,7 +4054,7 @@ input, select, textarea {
 			width: 0%;
 		}
 		100%{
-			width: 80%;
+			width: 75%;
 		}
 	}
 
@@ -4139,13 +4139,13 @@ input, select, textarea {
 
 .mspp{
 	width: 75%;
-	animation: mspp 2.5s;
+	animation: mspp 2s;
 }
 	@keyframes mspp{
 		0%{
 			width: 0%;
 		}
 		100%{
-			width: 85%;
+			width: 75%;
 		}
 	}
