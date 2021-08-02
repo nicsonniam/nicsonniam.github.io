@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Golden Village Jurong Point",
+        "latitude": 1.348185808,
+        "longitude": 103.7133715
+    },
+    {
+        "name": "Golden Village Yishun",
+        "latitude": 1.438458056,
+        "longitude": 103.8349124
+    },
+    {
+        "name": "Golden Village Tampines",
+        "latitude": 1.356417916,
+        "longitude": 103.9647086
+    },
+    {
+        "name": "Golden Village Bishan",
+        "latitude": 1.358826846,
+        "longitude": 103.8572269
+    },
+    {
+        "name": "Golden Village City Square",
+        "latitude": 1.320384379,
+        "longitude": 103.8589432
+    },
+    {
+        "name": "Golden Village Tiong Bahru",
+        "latitude": 1.292239602,
+        "longitude": 103.8270135
+    }
+]
