@@ -1,138 +1,136 @@
-[
-    {
-        "Golden Village Jurong Point": [
-            {
-                "movie": "The Hobbit: The Battle of the Five Armies",
-                "showtimes": [
-                    "10:00",
-                    "13:00",
-                    "19:00"
-                ]
-            },
-            {
-                "movie": "Interstellar",
-                "showtimes": [
-                    "9:00",
-                    "16:00",
-                    "21:00"
-                ]
-            },
-            {
-                "movie": "Dawn of the Planet of the Apes",
-                "showtimes": [
-                    "11:00",
-                    "16:00",
-                    "20:00"
-                ]
-            },
-            {
-                "movie": "Transformers: Age of Extinction",
-                "showtimes": [
-                    "16:00"
-                ]
-            }
-        ],
-        "Golden Village Yishun": [
-            {
-                "movie": "Guardians of the Galaxy",
-                "showtimes": [
-                    "9:00",
-                    "12:00",
-                    "19:00"
-                ]
-            },
-            {
-                "movie": "The Hunger Games: Mockingjay - Part 1",
-                "showtimes": [
-                    "11:00",
-                    "16:00",
-                    "21:00"
-                ]
-            },
-            {
-                "movie": "Dawn of the Planet of the Apes",
-                "showtimes": [
-                    "11:00",
-                    "16:00",
-                    "20:00"
-                ]
-            },
-            {
-                "movie": "Transformers: Age of Extinction",
-                "showtimes": [
-                    "10:00",
-                    "16:00"
-                ]
-            },
-            {
-                "movie": "The Amazing Spider-Man 2",
-                "showtimes": [
-                    "18:00"
-                ]
-            }
-        ],
-        "Golden Village Tampines": [
-            {
-                "movie": "X-Men: Days of Future Past",
-                "showtimes": [
-                    "9:00",
-                    "12:00",
-                    "19:00"
-                ]
-            },
-            {
-                "movie": "Maleficent",
-                "showtimes": [
-                    "11:00",
-                    "16:00",
-                    "21:00"
-                ]
-            },
-            {
-                "movie": "Transformers: Age of Extinction",
-                "showtimes": [
-                    "10:00",
-                    "16:00"
-                ]
-            },
-            {
-                "movie": "The Amazing Spider-Man 2",
-                "showtimes": [
-                    "18:00"
-                ]
-            }
-        ],
-        "Golden Village Bishan": [
-            {
-                "movie": "The Hobbit: The Desolation of Smaug",
-                "showtimes": [
-                    "9:00",
-                    "12:00",
-                    "19:00"
-                ]
-            },
-            {
-                "movie": "Maleficent",
-                "showtimes": [
-                    "11:00",
-                    "16:00",
-                    "21:00"
-                ]
-            },
-            {
-                "movie": "Captain America: The Winter Soldier",
-                "showtimes": [
-                    "10:00",
-                    "16:00"
-                ]
-            },
-            {
-                "movie": "Maleficent",
-                "showtimes": [
-                    "12:00",
-                    "23:00"
-                ]
-            }
-        ]
-    }
-]
+{
+    "Golden Village Jurong Point": [
+        {
+            "movie": "The Hobbit: The Battle of the Five Armies",
+            "showtimes": [
+                "10:00",
+                "13:00",
+                "19:00"
+            ]
+        },
+        {
+            "movie": "Interstellar",
+            "showtimes": [
+                "9:00",
+                "16:00",
+                "21:00"
+            ]
+        },
+        {
+            "movie": "Dawn of the Planet of the Apes",
+            "showtimes": [
+                "11:00",
+                "16:00",
+                "20:00"
+            ]
+        },
+        {
+            "movie": "Transformers: Age of Extinction",
+            "showtimes": [
+                "16:00"
+            ]
+        }
+    ],
+    "Golden Village Yishun": [
+        {
+            "movie": "Guardians of the Galaxy",
+            "showtimes": [
+                "9:00",
+                "12:00",
+                "19:00"
+            ]
+        },
+        {
+            "movie": "The Hunger Games: Mockingjay - Part 1",
+            "showtimes": [
+                "11:00",
+                "16:00",
+                "21:00"
+            ]
+        },
+        {
+            "movie": "Dawn of the Planet of the Apes",
+            "showtimes": [
+                "11:00",
+                "16:00",
+                "20:00"
+            ]
+        },
+        {
+            "movie": "Transformers: Age of Extinction",
+            "showtimes": [
+                "10:00",
+                "16:00"
+            ]
+        },
+        {
+            "movie": "The Amazing Spider-Man 2",
+            "showtimes": [
+                "18:00"
+            ]
+        }
+    ],
+    "Golden Village Tampines": [
+        {
+            "movie": "X-Men: Days of Future Past",
+            "showtimes": [
+                "9:00",
+                "12:00",
+                "19:00"
+            ]
+        },
+        {
+            "movie": "Maleficent",
+            "showtimes": [
+                "11:00",
+                "16:00",
+                "21:00"
+            ]
+        },
+        {
+            "movie": "Transformers: Age of Extinction",
+            "showtimes": [
+                "10:00",
+                "16:00"
+            ]
+        },
+        {
+            "movie": "The Amazing Spider-Man 2",
+            "showtimes": [
+                "18:00"
+            ]
+        }
+    ],
+    "Golden Village Bishan": [
+        {
+            "movie": "The Hobbit: The Desolation of Smaug",
+            "showtimes": [
+                "9:00",
+                "12:00",
+                "19:00"
+            ]
+        },
+        {
+            "movie": "Maleficent",
+            "showtimes": [
+                "11:00",
+                "16:00",
+                "21:00"
+            ]
+        },
+        {
+            "movie": "Captain America: The Winter Soldier",
+            "showtimes": [
+                "10:00",
+                "16:00"
+            ]
+        },
+        {
+            "movie": "Maleficent",
+            "showtimes": [
+                "12:00",
+                "23:00"
+            ]
+        }
+    ]
+}
