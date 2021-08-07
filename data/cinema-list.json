@@ -1,20 +1,24 @@
 [
     {
+        "id": "GoldenVillageJurongPoint",
         "name": "Golden Village Jurong Point",
         "latitude": 1.348185808,
         "longitude": 103.7133715
     },
     {
+        "id": "GoldenVillageYishun",
         "name": "Golden Village Yishun",
         "latitude": 1.438458056,
         "longitude": 103.8349124
     },
     {
+        "id": "GoldenVillageTampines",
         "name": "Golden Village Tampines",
         "latitude": 1.356417916,
         "longitude": 103.9647086
     },
     {
+        "id": "GoldenVillageBishan",
         "name": "Golden Village Bishan",
         "latitude": 1.358826846,
         "longitude": 103.8572269
