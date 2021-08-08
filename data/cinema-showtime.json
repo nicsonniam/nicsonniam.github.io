@@ -17,7 +17,8 @@
                 " 10:00",
                 " 13:00",
                 " 19:00"
-            ]
+            ],
+            "rating": 4.5
         },
         {
             "movie": "Interstellar",
@@ -36,7 +37,8 @@
                 " 9:00",
                 " 16:00",
                 " 21:00"
-            ]
+            ],
+            "rating": 5
         },
         {
             "movie": "Dawn of the Planet of the Apes",
@@ -55,7 +57,8 @@
                 " 11:00",
                 " 16:00",
                 " 20:00"
-            ]
+            ],
+            "rating": 4
         },
         {
             "movie": "Transformers: Age of Extinction",
@@ -72,7 +75,8 @@
             ],
             "showtimes": [
                 " 16:00"
-            ]
+            ],
+            "rating": 3
         }
     ],
     "Golden Village Yishun": [
@@ -93,7 +97,8 @@
                 " 9:00",
                 " 12:00",
                 " 19:00"
-            ]
+            ],
+            "rating": 4
         },
         {
             "movie": "The Hunger Games: Mockingjay - Part 1",
@@ -112,7 +117,8 @@
                 " 11:00",
                 " 16:00",
                 " 21:00"
-            ]
+            ],
+            "rating": 3.5
         },
         {
             "movie": "Dawn of the Planet of the Apes",
@@ -131,7 +137,8 @@
                 " 11:00",
                 " 16:00",
                 " 20:00"
-            ]
+            ],
+            "rating": 4
         },
         {
             "movie": "Transformers: Age of Extinction",
@@ -149,7 +156,8 @@
             "showtimes": [
                 " 10:00",
                 " 16:00"
-            ]
+            ],
+            "rating": 3
         },
         {
             "movie": "The Amazing Spider-Man 2",
@@ -166,7 +174,8 @@
             ],
             "showtimes": [
                 " 18:00"
-            ]
+            ],
+            "rating": 3
         }
     ],
     "Golden Village Tampines": [
@@ -187,7 +196,8 @@
                 " 9:00",
                 " 12:00",
                 " 19:00"
-            ]
+            ],
+            "rating": 3.5
         },
         {
             "movie": "Maleficent",
@@ -206,7 +216,8 @@
                 " 11:00",
                 " 16:00",
                 " 21:00"
-            ]
+            ],
+            "rating": 3
         },
         {
             "movie": "Transformers: Age of Extinction",
@@ -224,7 +235,8 @@
             "showtimes": [
                 " 10:00",
                 " 16:00"
-            ]
+            ],
+            "rating": 3
         },
         {
             "movie": "The Amazing Spider-Man 2",
@@ -241,7 +253,8 @@
             ],
             "showtimes": [
                 " 18:00"
-            ]
+            ],
+            "rating": 3
         }
     ],
     "Golden Village Bishan": [
