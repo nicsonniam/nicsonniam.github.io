@@ -1,6 +1,6 @@
 [
     {
-        "name": "The Hobbit: The Battle of the Five Armies",
+        "movie": "The Hobbit: The Battle of the Five Armies",
         "posterlink": "http://resizing.flixster.com/KK-V3xB7CY355XaejcerpzryvDs=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/17/97/11179703_ori.jpg",
         "synopsis": "After the Dragon leaves the Lonely Mountain, the people of Lake-town see a threat coming. Orcs, dwarves, elves and people prepare for war. Bilbo sees Thorin going mad and tries to help. Meanwhile, Gandalf is rescued from the Necromancer's prison and his rescuers realize who the Necromancer is.",
         "director": "Peter Jackson",
@@ -15,7 +15,7 @@
         "rating": 4.5
     },
     {
-        "name": "The Hunger Games: Mockingjay - Part 1",
+        "movie": "The Hunger Games: Mockingjay - Part 1",
         "posterlink": "http://resizing.flixster.com/rrb4D1D8S1_ACJFg1qDpd6bY4cQ=/180x270/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/98/11189899_ori.jpg",
         "synopsis": "With the Games destroyed, Katniss Everdeen, along with Gale, Finnick and Beetee, end up in the so thought destroyed District 13. Under the leadership of President Coin and the advice of her friends, Katniss becomes the Mockingjay, the symbol of rebellion for the districts of Panem.",
         "director": "Francis Lawrence",
@@ -30,7 +30,7 @@
         "rating": 3.5
     },
     {
-        "name": "Interstellar",
+        "movie": "Interstellar",
         "posterlink": "http://resizing.flixster.com/l9yjA-72sZMYECeOjx-r14mgXtU=/180x270/dkpu1ddg7pbsk.cloudfront.net/movie/11/19/08/11190860_ori.jpg",
         "synopsis": "Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.",
         "director": "Christopher Nolan",
@@ -45,7 +45,7 @@
         "rating": 5
     },
     {
-        "name": "Guardians of the Galaxy",
+        "movie": "Guardians of the Galaxy",
         "posterlink": "http://resizing.flixster.com/YrF_OeTQx3bXNsMLIy_NocjA4wI=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/17/80/11178082_ori.jpg",
         "synopsis": "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the Guardians of the Galaxy to save the galaxy.",
         "director": "James Gunn",
@@ -60,7 +60,7 @@
         "rating": 4
     },
     {
-        "name": "Dawn of the Planet of the Apes",
+        "movie": "Dawn of the Planet of the Apes",
         "posterlink": "http://resizing.flixster.com/gDtbA1iPxTYEjBZeSsIYktCtUiw=/180x270/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/91/11189194_ori.jpg",
         "synopsis": "A growing nation of genetically evolved apes led by Caesar is threatened by a band of human survivors of the devastating virus unleashed a decade earlier. They reach a fragile peace, but it proves short-lived, as both sides are brought to the brink of a war that will determine who will emerge as Earth's dominant species.",
         "director": "Matt Reeves",
@@ -75,7 +75,7 @@
         "rating": 4
     },
     {
-        "name": "Transformers: Age of Extinction",
+        "movie": "Transformers: Age of Extinction",
         "posterlink": "http://resizing.flixster.com/jXWcxIKVUq4G-2vl7aClbKnOXr4=/180x270/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/05/11180556_ori.jpg",
         "synopsis": "After the battle between the Autobots and Decepticons that leveled Chicago, humanity thinks that all alien robots are a threat. So Harold Attinger, a CIA agent, establishes a unit whose sole purpose is to hunt down all of them. But it turns out that they are aided by another alien robot who is searching for Optimus Prime. Cade Yeager, a robotics expert, buys an old truck and upon examining it, he thinks it's a Transformer. When he powers it up, he discovers it's Optimus Prime. Later, men from the unit show up looking for Optimus. He helps Yeager and his daughter Tessa escape but are pursued by the hunter. They escape and Yeager learns from technology he took from the men that a technology magnate and defense contractor named Joshua Joyce is part of what's going on, so they go to find out what's going on.",
         "director": "Michael Bay",
@@ -90,7 +90,7 @@
         "rating": 3
     },
     {
-        "name": "Maleficent",
+        "movie": "Maleficent",
         "posterlink": "http://resizing.flixster.com/YukULOFULUesVZccNjOZzF1YX30=/180x270/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/12/11181292_ori.jpg",
         "synopsis": "A beautiful, pure-hearted young woman, Maleficent has an idyllic life growing up in a peaceable forest kingdom, until one day when an invading army threatens the harmony of the land. Maleficent rises to be the land's fiercest protector, but she ultimately suffers a ruthless betrayal - an act that begins to turn her pure heart to stone. Bent on revenge, Maleficent faces a battle with the invading king's successor and, as a result, places a curse upon his newborn infant Aurora. As the child grows, Maleficent realizes that Aurora holds the key to peace in the kingdom - and perhaps to Maleficent's true happiness as well.",
         "director": "Robert Stromberg",
@@ -105,7 +105,7 @@
         "rating": 3
     },
     {
-        "name": "X-Men: Days of Future Past",
+        "movie": "X-Men: Days of Future Past",
         "posterlink": "http://resizing.flixster.com/Oi1KcdBv_gG5Xqk84faEkayyX9E=/180x270/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/08/11180875_ori.jpg",
         "synopsis": "In the future, the mutants and the humans who help them are slaughtered by powerful robots named Sentinels. Professor Xavier, Wolverine, Magneto, Storm, Kitty Pryde, and her friends meet at a monastery in China and Xavier explains that the invincible Sentinels were created using the DNA of Mystique that was captured in 1973 when she tried to assassinate their creator Dr. Bolivar Trask. Xavier tells that their only chance is return to 1973 using Pryde's ability to join Charles Xavier and Erik Lehnsherr to convince Mystique to give up her intention. However, only Wolverine can withstand the damages of the time travel. Will he succeed in stopping Mystique and the Sentinel Program, and save the mutants and their human friends from annihilation?",
         "director": "Bryan Singer",
@@ -120,7 +120,7 @@
         "rating": 3.5
     },
     {
-        "name": "The Amazing Spider-Man 2",
+        "movie": "The Amazing Spider-Man 2",
         "posterlink": "http://resizing.flixster.com/uJRknhjV8s_CDr9Krj6hzk4GzYM=/180x270/dkpu1ddg7pbsk.cloudfront.net/movie/11/18/00/11180032_ori.jpg",
         "synopsis": "We've always known that Spider-Man's most important conflict has been within himself: the struggle between the ordinary obligations of Peter Parker and the extraordinary responsibilities of Spider-Man. But in The Amazing Spider-Man 2, Peter Parker finds that his greatest battle is about to begin. It's great to be Spider-Man. For Peter Parker, there's no feeling quite like swinging between skyscrapers, embracing being the hero, and spending time with Gwen. But being Spider-Man comes at a price: only Spider-Man can protect his fellow New Yorkers from the formidable villains that threaten the city. With the emergence of Electro, Peter must confront a foe far more powerful than he. And as his old friend, Harry Osborn, returns, Peter comes to realize that all of his enemies have one thing in common: Oscorp.",
         "director": "Marc Webb",
@@ -135,7 +135,7 @@
         "rating": 3
     },
     {
-        "name": "Captain America: The Winter Soldier",
+        "movie": "Captain America: The Winter Soldier",
         "posterlink": "http://resizing.flixster.com/gxRJwetP1eNIrPR6xlWBfD_VaFc=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/17/72/11177246_ori.jpg",
         "synopsis": "For Steve Rogers, awakening after decades of suspended animation involves more than catching up on pop culture; it also means that this old school idealist must face a world of subtler threats and difficult moral complexities. That becomes clear when Director Nick Fury is killed by the mysterious assassin, the Winter Soldier, but not before warning Rogers that SHIELD has been subverted by its enemies. When Rogers acts on Fury's warning to trust no one there, he is branded as a traitor by the organization. Now a fugitive, Captain America must get to the bottom of this deadly mystery with the help of the Black Widow and his new friend, The Falcon. However, the battle will be costly for the Sentinel of Liberty, with Rogers finding enemies where he least expects them while learning that the Winter Soldier looks disturbingly familiar.",
         "director": "Russo Brothers",
@@ -150,7 +150,7 @@
         "rating": 4
     },
     {
-        "name": "The Hobbit: The Desolation of Smaug",
+        "movie": "The Hobbit: The Desolation of Smaug",
         "posterlink": "http://resizing.flixster.com/i3zwngMY9umqr8lAJLKAU4aYlAU=/180x270/dkpu1ddg7pbsk.cloudfront.net/movie/11/17/69/11176940_ori.jpg",
         "synopsis": "After successfully crossing over (and under) the Misty Mountains, Thorin and Company must seek aid from a powerful stranger before taking on the dangers of Mirkwood Forest--without their Wizard. If they reach the human settlement of Lake-town it will be time for the hobbit Bilbo Baggins to fulfill his contract with the dwarves. The party must complete the journey to Lonely Mountain and burglar Baggins must seek out the Secret Door that will give them access to the hoard of the dragon Smaug. And, where has Gandalf got off to? And what is his secret business to the south?",
         "director": "Peter Jackson",
