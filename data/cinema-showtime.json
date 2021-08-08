@@ -275,7 +275,8 @@
                 " 9:00",
                 " 12:00",
                 " 19:00"
-            ]
+            ],
+            "rating": 4
         },
         {
             "movie": "X-Men: Days of Future Past",
@@ -294,7 +295,8 @@
                 " 11:00",
                 " 16:00",
                 " 21:00"
-            ]
+            ],
+            "rating": 3.5
         },
         {
             "movie": "Captain America: The Winter Soldier",
@@ -312,7 +314,8 @@
             "showtimes": [
                 " 10:00",
                 " 16:00"
-            ]
+            ],
+            "rating": 4
         },
         {
             "movie": "Maleficent",
@@ -330,7 +333,8 @@
             "showtimes": [
                 " 12:00",
                 " 23:00"
-            ]
+            ],
+            "rating": 3
         }
     ]
 }
