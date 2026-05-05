@@ -1,34 +1,55 @@
 ---
-import HighlightCard from '../components/cards/HighlightCard.astro';
-import BaseLayout from '../layouts/BaseLayout.astro';
+import HighlightCard from "../components/cards/HighlightCard.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout title="Projects">
-
   <section class="text-center mt-12 md:mt-16 px-4">
-    <h1 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight md:leading-[60px]">
+    <h1
+      class="text-4xl md:text-6xl font-bold tracking-tight leading-tight md:leading-[60px]"
+    >
       My Projects
     </h1>
 
     <div class="flex flex-col gap-8 md:gap-10 mt-12 md:mt-16">
-      
+      <HighlightCard
+        alignment="left"
+        title="mileage.ai"
+        description="A full-stack vehicle management platform built with Next.js, GraphQL, and PostgreSQL to help private vehicle owners track mileage, servicing history, fuel consumption, and maintenance records through a centralized dashboard."
+        description2="Integrated an AI-powered assistant capable of summarizing vehicle history, predicting upcoming servicing intervals based on mileage trends, and generating maintenance insights using structured vehicle and service data. Implemented a GraphQL API layer with Prisma ORM for type-safe data access and scalable query handling."
+        stack="TypeScript,React,Next.js,GraphQL,PostgreSQL,Prisma,TailwindCSS,Shadcn UI,OpenAI API,Vercel"
+        status={{
+          color: "bg-yellow-100 text-yellow-800",
+          copy: "In Progress",
+          symbol: "⚠︎",
+        }}
+      />
+
       <HighlightCard
         alignment="left"
         title="Park My Ride SG"
         link="https://www.parkmyridesg.com/"
         description="A full-stack web application built with Next.js and MongoDB to help riders locate motorcycle parking across Singapore. The system aggregates both public and crowdsourced data to provide a more complete and up-to-date view of parking availability."
         description2="Implemented automated data workflows using GitHub Actions to periodically fetch and process HDB and URA carpark datasets, syncing them into MongoDB. A separate workflow integrates with Google Sheets to ingest and manage crowdsourced private motorcycle parking data, enabling continuous community-driven updates."
-        stack="React · Next.js · Node.js · MongoDB · Rest API · GitHub Actions · Google Sheets API"
+        stack="React,Next.js,Node.js,MongoDB,Rest API,GitHub Actions,Google Sheets API"
+        status={{
+          color: "bg-green-100 text-green-800",
+          copy: "Live",
+          symbol: "●",
+        }}
       />
 
       <HighlightCard
         alignment="left"
         title="Custom Gym Payments Dashboard"
         description="A full-stack web application built with Next.js and MongoDB to automate the ingestion, tracking, and management of gym payments. The system integrates HitPay webhooks to securely receive real-time payment events, enabling automatic transaction logging, revenue tracking, and payment reconciliation."
-        stack="React · Next.js · TypeScript · Material-UI · REST API · MongoDB · Webhook Integrations"
+        stack="React,Next.js,TypeScript,Material-UI,REST API,MongoDB,Webhook Integrations"
+        status={{
+          color: "bg-green-100 text-green-800",
+          copy: "Live",
+          symbol: "●",
+        }}
       />
-
     </div>
   </section>
-
 </BaseLayout>
