@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import Hero from "../components/Hero.astro";
+---
+
+<BaseLayout title="Home">
+  <div class="flex h-[80vh] justify-center items-center">
+    <Hero
+      title="React/Next.js Developer"
+      subtitle="Hello, my name is Nicson"
+      description="5+ years experience • CSPO Certified"
+      primaryLink={{ label: "Download CV", href: "/cv.pdf", target:"_blank" }}
+      secondaryLink={{ label: "GitHub", href: "https://github.com/nicsonniam", target:"_blank" }}
+    />
+  </div>
+</BaseLayout>

@@ -1,0 +1,59 @@
+---
+export interface Props {
+  title?: string;
+  subtitle?: string;
+  description?: string;
+  primaryLink: { label: string; href: string; target?: string };
+  secondaryLink: { label: string; href: string; target?: string };
+}
+
+const { title, subtitle, description, primaryLink, secondaryLink } = Astro.props;
+---
+
+<section class="text-center px-4 sm:px-0">
+
+  {subtitle && (
+    <p class="text-base sm:text-lg text-gray-600">
+      {subtitle}
+    </p>
+  )}
+
+  {title && (
+    <h1 class="mt-4 text-3xl sm:text-5xl font-bold tracking-tight leading-snug sm:leading-[60px] typewriter">
+      {title}
+    </h1>
+  )}
+
+  {description && (
+    <p class="mt-4 text-sm sm:text-base text-gray-500 max-w-md mx-auto">
+      {description}
+    </p>
+  )}
+
+  <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 max-w-sm mx-auto">
+
+    <a
+      href={primaryLink.href}
+      target={primaryLink.target}
+      class="w-full px-5 py-2 bg-black text-white rounded-xl hover:opacity-90 flex items-center justify-center gap-2"
+    >
+      {primaryLink.label.toLowerCase() === "github" && (
+        <img src="/github.svg" alt="GitHub" class="w-4 h-4" />
+      )}
+      {primaryLink.label}
+    </a>
+
+    <a
+      href={secondaryLink.href}
+      target={secondaryLink.target}
+      class="w-full px-5 py-2 border border-gray-300 rounded-xl hover:bg-white flex items-center justify-center gap-2"
+    >
+      {secondaryLink.label.toLowerCase() === "github" && (
+        <img src="/github.svg" alt="GitHub" class="w-4 h-4" />
+      )}
+      {secondaryLink.label}
+    </a>
+
+  </div>
+
+</section>

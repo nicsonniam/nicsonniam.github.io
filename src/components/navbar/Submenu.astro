@@ -1,0 +1,21 @@
+---
+export interface Props {
+  items: { label: string; href: string }[];
+}
+
+const { items } = Astro.props;
+---
+
+<div
+  class="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 invisible 
+         group-hover:opacity-100 group-hover:visible transition-all duration-200"
+>
+  {items.map((item) => (
+    <a
+      href={item.href}
+      class="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+    >
+      {item.label}
+    </a>
+  ))}
+</div>
