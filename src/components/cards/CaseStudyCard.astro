@@ -1,0 +1,15 @@
+---
+const { title, summary, link } = Astro.props;
+---
+
+<a href={link} class="card block p-6 hover:scale-[1.01] transition">
+  <h3 class="text-lg font-semibold">{title}</h3>
+
+  <p class="text-gray-600 mt-2">
+    {summary}
+  </p>
+
+  <p class="mt-4 text-sm text-blue-600 font-medium">
+    Read full case study →
+  </p>
+</a>

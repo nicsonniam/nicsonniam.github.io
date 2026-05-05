@@ -1,0 +1,108 @@
+---
+import Submenu from "./Submenu.astro";
+
+const navItems = [
+  { label: "Home", href: "/" },
+  {
+    label: "About",
+    children: [
+      { label: "About me", href: "/about" },
+      { label: "My Experience", href: "/about#experience" },
+      { label: "My Skills", href: "/about#skills" },
+    ],
+  },
+  { label: "Projects", href: "/projects" },
+];
+---
+
+<script is:inline>
+  window.addEventListener("DOMContentLoaded", () => {
+    const btn = document.getElementById("menu-btn");
+    const closeBtn = document.getElementById("close-btn");
+    const menu = document.getElementById("mobile-menu");
+
+    const openMenu = () => {
+      menu.classList.remove(
+        "-translate-y-full",
+        "opacity-0",
+        "pointer-events-none",
+      );
+      menu.classList.add("translate-y-0", "opacity-100");
+      document.body.classList.add("overflow-hidden");
+    };
+
+    const closeMenu = () => {
+      menu.classList.add(
+        "-translate-y-full",
+        "opacity-0",
+        "pointer-events-none",
+      );
+      menu.classList.remove("translate-y-0", "opacity-100");
+      document.body.classList.remove("overflow-hidden");
+    };
+
+    btn?.addEventListener("click", openMenu);
+    closeBtn?.addEventListener("click", closeMenu);
+  });
+</script>
+
+<nav
+  class="sticky top-0 z-50 bg-white/90 backdrop-blur-xl border-b border-white/30 shadow-sm"
+>
+  <div class="max-w-6xl mx-auto flex justify-between items-center py-6 px-4">
+    <a href="/" class="font-bold text-lg">nicson.n</a>
+
+    <div class="hidden md:flex gap-6 text-sm text-gray-600">
+      {
+        navItems.map((item) =>
+          item.children ? (
+            <div class="relative group">
+              <button class="hover:text-black">{item.label}</button>
+              <Submenu items={item.children} />
+            </div>
+          ) : (
+            <a href={item.href} class="hover:text-black">
+              {item.label}
+            </a>
+          ),
+        )
+      }
+    </div>
+
+    <button id="menu-btn" class="md:hidden text-2xl">☰</button>
+  </div>
+
+  <div
+    id="mobile-menu"
+    class="fixed inset-0 h-screen bg-white z-50 flex flex-col px-6 py-6 space-y-6
+         transition-all duration-300 ease-out
+         -translate-y-full opacity-0 pointer-events-none"
+  >
+    <div class="absolute top-4 right-4">
+      <button id="close-btn" class="text-2xl">✕</button>
+    </div>
+
+    <div class="flex flex-col gap-4 text-gray-700 text-lg">
+      {
+        navItems.map((item) =>
+          item.children ? (
+            <div class="space-y-2">
+              <p class="font-semibold">{item.label}</p>
+              <div class="pl-4 space-y-2 text-base">
+                {item.children.map((child) => (
+                  <a href={child.href} class="block hover:text-black">
+                    {child.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <a href={item.href} class="hover:text-black">
+              {item.label}
+            </a>
+          ),
+        )
+      }
+    </div>
+  </div>
+</nav>

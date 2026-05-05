@@ -1,0 +1,142 @@
+---
+import HighlightCard from "../components/cards/HighlightCard.astro";
+import Hero from "../components/Hero.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="About Me">
+
+  <section class="text-center mt-12 md:mt-16 px-4">
+    <h1 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight md:leading-[60px]">
+      About Me
+    </h1>
+
+    <p class="mt-6 text-base md:text-lg text-gray-600 max-w-2xl mx-auto">
+      I'm a software developer with experience building full-stack web applications and product systems. I enjoy solving practical problems, designing scalable architectures, and continuously improving how things are built.
+    </p>
+  </section>
+
+  <section class="mt-12 md:mt-16 max-w-3xl mx-auto space-y-6 text-gray-700 leading-relaxed px-4">
+    <p>
+      Software Developer with 5+ years of experience building high-performing web applications across E-commerce and internal platforms. Strong background in modern frontend development using React, Next.js, Angular, and TypeScript, with solid experience integrating REST APIs and working in Agile, cross-functional teams.
+    </p>
+
+    <p>
+      Skilled in translating business requirements into clean, scalable technical solutions, improving user experience, and collaborating closely with designers, product managers, and stakeholders. Experienced in maintaining and enhancing multi-store Shopify themes and delivering features end-to-end.
+    </p>
+
+    <p>
+      Currently seeking Software Developer/Frontend Developer roles where I can contribute to building reliable, user-focused, and impactful digital products.
+    </p>
+  </section>
+
+  <section class="mt-12 md:mt-16 mb-16 md:mb-20 grid md:grid-cols-3 gap-4 md:gap-6 max-w-4xl mx-auto text-center px-4">
+    <div class="card p-5 md:p-6">
+      <h3 class="font-semibold text-lg">Experience</h3>
+      <p class="text-gray-600 mt-2 text-sm md:text-base">5+ years building web applications</p>
+    </div>
+
+    <div class="card p-5 md:p-6">
+      <h3 class="font-semibold text-lg">Focus</h3>
+      <p class="text-gray-600 mt-2 text-sm md:text-base">Full-stack systems & product engineering</p>
+    </div>
+
+    <div class="card p-5 md:p-6">
+      <h3 class="font-semibold text-lg">Approach</h3>
+      <p class="text-gray-600 mt-2 text-sm md:text-base">Clean architecture & scalable design</p>
+    </div>
+  </section>
+
+  <section id="experience" class="max-w-4xl mx-auto pt-12 md:pt-16 px-4">
+    <h1 class="text-4xl md:text-6xl text-center mb-10 md:mb-12 font-bold tracking-tight leading-tight md:leading-[60px]">
+      My Experience
+    </h1>
+
+    <div class="mb-10 md:mb-12">
+      <h2 class="text-lg md:text-xl font-semibold">
+        Web Developer — Vista Musical Instruments Corporation
+      </h2>
+      <p class="text-sm text-gray-500">2023 – 2024</p>
+
+      <ul class="mt-4 space-y-2 text-gray-700 leading-relaxed list-disc pl-5 text-sm md:text-base">
+        <li>Maintained and enhanced a unified Shopify theme across multiple e-commerce stores, ensuring consistent branding and performance.</li>
+        <li>Collaborated closely with UI/UX designers and project managers to improve user experience and conversion flow.</li>
+        <li>Implemented frontend improvements and optimisations across product and checkout experiences.</li>
+      </ul>
+    </div>
+
+    <div class="mb-10 md:mb-12">
+      <h2 class="text-lg md:text-xl font-semibold">Frontend Developer — HackerTrail</h2>
+      <p class="text-sm text-gray-500">2021 – 2023</p>
+
+      <ul class="mt-4 space-y-2 text-gray-700 leading-relaxed list-disc pl-5 text-sm md:text-base">
+        <li>Developed an internal candidate management platform using Angular 8, improving recruitment workflow efficiency.</li>
+        <li>Led a ground-up rebuild of a client-facing recruitment assessment platform using Angular 12.</li>
+        <li>Worked closely with backend and product teams to deliver new assessment features and UI improvements.</li>
+      </ul>
+    </div>
+
+    <div class="mb-10 md:mb-12">
+      <h2 class="text-lg md:text-xl font-semibold">Systems Engineer — Tata Consultancy Services</h2>
+      <p class="text-sm text-gray-500">2019 – 2021</p>
+
+      <ul class="mt-4 space-y-2 text-gray-700 leading-relaxed list-disc pl-5 text-sm md:text-base">
+        <li>Contributed across enterprise development, frontend engineering, and business analysis roles in large-scale digital transformation projects.</li>
+        <li>Supported development of internal workflow applications using Microsoft Power Platform.</li>
+        <li>Conducted knowledge transfer sessions and onboarding support for new team members.</li>
+      </ul>
+    </div>
+
+    <div class="mb-10 md:mb-12">
+      <h2 class="text-lg md:text-xl font-semibold">Client Engagement Highlights</h2>
+      <p class="text-sm text-gray-500">Tata Consultancy Services</p>
+
+      <div class="mt-6 space-y-6">
+
+        <div>
+          <h3 class="font-medium">Sembcorp</h3>
+          <ul class="mt-2 space-y-2 text-gray-700 list-disc pl-5 text-sm md:text-base">
+            <li>Built Angular-based energy monitoring dashboard for operational visibility.</li>
+            <li>Collaborated on UI/UX design for an online product catalogue using Adobe XD.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-medium">Rolls-Royce Singapore</h3>
+          <ul class="mt-2 space-y-2 text-gray-700 list-disc pl-5 text-sm md:text-base">
+            <li>Translated complex system logic into clear stakeholder documentation.</li>
+            <li>Supported product management through research, roadmap planning, and design contributions.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <Hero
+    primaryLink={{ label: "Download CV", href: "/cv.pdf", target: "_blank" }}
+    secondaryLink={{ label: "GitHub", href: "https://github.com/nicsonniam", target: "_blank" }}
+  />
+
+  <section id="skills" class="max-w-5xl mx-auto mt-12 md:mt-16 mb-20 px-4">
+    <h2 class="text-3xl md:text-5xl font-bold tracking-tight mb-10 md:mb-12 text-center">
+      Skills
+    </h2>
+
+    <div class="grid gap-6 md:grid-cols-3">
+      <HighlightCard
+        title="Frontend"
+        stack="HTML · CSS · JS/TS · React.js · Next.js · Astro · Angular · Tailwind CSS"
+      />
+      <HighlightCard
+        title="Backend"
+        stack="Node.js · Express · REST APIs · GraphQL · MongoDB"
+      />
+      <HighlightCard
+        title="Tools & Platforms"
+        stack="Git · GitHub · Vercel · Figma · Shopify"
+      />
+    </div>
+  </section>
+
+</BaseLayout>
