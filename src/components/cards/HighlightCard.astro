@@ -1,17 +1,18 @@
 ---
-const { alignment, title, description, description2, stack, link } = Astro.props;
+const { alignment, title, description, description2, stack, link, status } =
+  Astro.props;
+const { color, copy, symbol } = status || {};
 ---
 
 <div
   class={`card p-5 md:p-6 ${
-    alignment === 'left'
-      ? 'text-left'
-      : alignment === 'right'
-      ? 'text-right'
-      : 'text-center'
+    alignment === "left"
+      ? "text-left"
+      : alignment === "right"
+        ? "text-right"
+        : "text-center"
   }`}
 >
-
   <h3 class="text-base md:text-lg font-semibold">
     {title}
   </h3>
@@ -20,28 +21,46 @@ const { alignment, title, description, description2, stack, link } = Astro.props
     {description}
   </p>
 
-  {description2 && (
-    <p class="text-sm md:text-base text-gray-600 mt-2 leading-relaxed">
-      {description2}
-    </p>
-  )}
+  {
+    description2 && (
+      <p class="text-sm md:text-base text-gray-600 mt-2 leading-relaxed">
+        {description2}
+      </p>
+    )
+  }
 
   <div class="mt-4 flex flex-wrap gap-2 justify-start md:justify-start">
-    {stack.split('·').map((s: string) => (
-      <span class="badge text-xs md:text-sm">
-        {s.trim()}
-      </span>
-    ))}
+    {
+      stack
+        .split(",")
+        .map((s: string) => (
+          <span class="badge text-xs md:text-sm">{s.trim()}</span>
+        ))
+    }
   </div>
-
-  {link && (
-    <a
-      target="_blank"
-      href={link}
-      class="text-blue-600 mt-4 inline-block text-sm md:text-base hover:underline"
-    >
-      View Project
-    </a>
-  )}
-
+  <div
+    class={`mt-4 flex flex-wrap gap-2 ${link && status ? "justify-between md:justify-between" : link && !status ? "justify-start md:justify-start" : "justify-end md:justify-end"}`}
+  >
+    {
+      link && (
+        <a
+          target="_blank"
+          href={link}
+          class="text-blue-600 mt-4 inline-block text-sm md:text-base hover:underline"
+        >
+          View Project
+        </a>
+      )
+    }
+    {
+      status && (
+        <div
+          class={`mt-4 inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs md:text-sm font-medium ${color}`}
+        >
+          {symbol}
+          {copy}
+        </div>
+      )
+    }
+  </div>
 </div>

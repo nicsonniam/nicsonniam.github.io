@@ -1,0 +1,48 @@
+---
+const {
+  role,
+  subtitle,
+  company,
+  startYear,
+  endYear,
+  country,
+  highlights,
+  skills,
+} = Astro.props;
+---
+
+<div class="mb-10 md:mb-12">
+  <h2 class="text-lg md:text-xl font-semibold">
+    {role}
+    {company && `— ${company}`}
+  </h2>
+  {
+    subtitle && (
+      <p class="text-md md:text-sm font-semibold">
+        {subtitle}
+      </p>
+    )
+  }
+  <p class="text-sm text-gray-500">{startYear} – {endYear}</p>
+  <p class="text-sm text-gray-500">{country}</p>
+
+  {
+    highlights && (
+      <ul class="mt-4 space-y-2 text-gray-700 leading-relaxed list-disc pl-5 text-sm md:text-base">
+        {highlights.map((h: string) => (
+          <li>{h}</li>
+        ))}
+      </ul>
+    )
+  }
+  {
+    skills && (
+      <div class="mt-4 flex flex-wrap items-center gap-2">
+        <span class="text-xs md:text-sm">Skills:</span>
+        {skills.split(",").map((s: string) => (
+          <span class="text-xs md:text-sm font-bold">{s.trim()}</span>
+        ))}
+      </div>
+    )
+  }
+</div>
